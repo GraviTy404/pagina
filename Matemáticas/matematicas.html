@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Matematicas
+        </title>
+        <style>
+            p
+            {
+                color:aliceblue;
+                background-color: black;
+                font-size: x-large;
+            }
+            strong
+            {
+                font-size: xx-large;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="E:/Codigo/HTML/Matemáticas/matematicas.js"></script>
+        <center>
+        <strong>Datos</strong>
+        <p>Nombre de los implicados:</p>
+        Jepte Eduardo Olmos Guzmán y Jesus Hernandez Rosales
+        <p>Grado, grupo y especialidad de los implicados:</p>
+        4-A Progaramación
+        <p>
+            Operaciones basicas
+        </p>
+        Valor 1:<label for="Valor1"><input type="number" id="N1" /></label>
+        <br>
+        Valor 2:<label for="Valor2"><input type="number" id="N2" /></label>
+        <br>
+        <button onclick="Sumar()">Sumar</button>
+        <button onclick="Restar()">Restar</button>
+        <button onclick="Multiplicar()">Multiplicar</button>
+        <button onclick="Dividir()">Dividir</button>
+        <button onclick="Residuo()">Residuo</button>
+        <br>
+        Resultado:<label for="Resultado" id="r"></label>
+        <br>
+        <br>
+        <p>
+            Tablas de multiplicar
+        </p>
+        <label for="numero"><input type="number" id="tdm" /></label>
+        <button onclick="TDM()">Generar Tabla</button>
+ 
+        
+
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <input size="16" type="text" class="form-control" id="datetime" readonly>
+        <script type="text/javascript">
+        $("#datetime").datetimepicker({
+            format: 'yyyy-mm-dd hh:ii'
+        });
+        </script>
+    </body>
+</html>
